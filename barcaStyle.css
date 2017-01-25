@@ -1,0 +1,91 @@
+html {
+  height: 100%;
+  background: linear-gradient(#1f3059 0vh, #8b1243 100vh);
+}
+
+body {
+  font-size: medium;
+  font-family: sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color:#8b1243;
+  width:100%;
+  padding:0.5em;
+  font-size:x-large;
+}
+
+nav > a {
+  text-decoration: none;
+  margin-right:1em;
+  position:relative;
+  color:black;
+}
+
+nav > a:hover {
+  color:gray;
+}
+
+#homeButton {
+  color: white;
+  font-weight: bold;
+  margin-right:2em;
+}
+
+#historyButton {
+	color: white;
+	background-color: #8b1243;
+	background-repeat: no-repeat;
+}
+
+#teamButton{
+	color: white;
+}
+
+#stadiumButton{
+	color: white;
+}
+
+
+.welcome {
+  float:left;
+  position:absolute;
+  top:5em;
+  width:350px;
+  padding:10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.welcome > .titlePage {
+  font-size: large;
+  font-weight: bold;
+}
+
+
+
+
+.table-right{
+  float:left;
+  width: 45%
+  top: 15em;
+}
+
+.table-left{
+  float:right;
+  width: 45%
+  top: 15em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+
+
