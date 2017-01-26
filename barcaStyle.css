@@ -29,10 +29,16 @@ nav > a:hover {
   color:gray;
 }
 
-#homeButton {
+#navTitle {
   color: white;
   font-weight: bold;
   margin-right:2em;
+}
+
+#homeButton {
+  color: white;
+  background-color: #8b1243;
+  background-repeat: no-repeat
 }
 
 #historyButton {
@@ -54,7 +60,8 @@ nav > a:hover {
   float:left;
   position:absolute;
   top:5em;
-  width:350px;
+  width:1000px;
+  height: 500px;
   padding:10px;
   background-color: rgba(255, 255, 255, 0.5);
 }
@@ -64,27 +71,37 @@ nav > a:hover {
   font-weight: bold;
 }
 
-
-
-
-.table-right{
-  float:left;
-  width: 45%
-  top: 15em;
+.table-right {
+  margin-left: 100px;
+  position: absolute;
 }
 
-.table-left{
-  float:right;
-  width: 45%
-  top: 15em;
+.welcome > .table-left {
+  margin-left: 600px;
+}
+
+.content {
+  margin-left:420px;
+  margin-right:4em;
+  padding:1em;
+  position:absolute;
+  top:5em;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.nextGameTable{
+  width: 500px; 
 }
 
 table {
     border-collapse: collapse;
+    width: 100%;
 }
 
-table, th, td {
-    border: 1px solid black;
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
 }
 
 
