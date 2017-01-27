@@ -16,11 +16,12 @@ nav {
   width:100%;
   padding:0.5em;
   font-size:x-large;
+  text-align: center;
 }
 
 nav > a {
   text-decoration: none;
-  margin-right:1em;
+  margin-right:2em;
   position:relative;
   color:black;
 }
@@ -55,15 +56,15 @@ nav > a:hover {
 	color: white;
 }
 
-
 .welcome {
   float:left;
   position:absolute;
-  top:5em;
+  top:6em;
   width:1000px;
   height: 500px;
   padding:10px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px
 }
 
 .welcome > .titlePage {
@@ -80,14 +81,117 @@ nav > a:hover {
   margin-left: 600px;
 }
 
+/* Home */
 .content {
   margin-left:420px;
   margin-right:4em;
   padding:1em;
   position:absolute;
-  top:5em;
-  background-color: rgba(255, 255, 255, 0.5);
+  top:7em;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px
 }
+
+/* Honours */
+.honoursContent{
+  margin-left:420px;
+  margin-right:4em;
+  padding:1em;
+  position:absolute;
+  top:6em;
+  height: 520px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px
+
+}
+
+.secondTable{
+  margin-left:420px;
+  margin-right:4em;
+  padding:1em;
+  position:absolute;
+  top:15em;
+}
+
+.trophiesImage{
+  margin-left:458px;
+  margin-right:4em;
+  padding:1em;
+  position:absolute;
+  top:20em;
+  border-radius: 20px
+
+}
+
+.dreamTeam{
+  float:left;
+  position:absolute;
+  top:5em;
+  width:1000px;
+  height: 500px;
+  padding:10px;
+}
+
+.sideInfo{
+  float:left;
+  position:absolute;
+  top:5em;
+  width:400px;
+  height: 500px;
+  padding:10px;
+  color: white;
+  border-radius: 20px
+
+}
+
+.honoursSideInfo{
+  float:left;
+  position:absolute;
+  top:6em;
+  width:350px;
+  height: 550px;
+  padding:10px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px
+
+}
+
+/* Stadium */
+.stadiumSide{
+  float:left;
+  position:absolute;
+  top:6em;
+  width:400px;
+  height: 500px;
+  padding:10px;
+  color: black;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+.secondStadiumImage {
+  float:left;
+  position:absolute;
+  top:24em;
+  width:400px;
+  height: 500px;
+  padding:10px;
+  color: black;
+
+}
+
+.stadiumContent{
+  margin-left:500px;
+  margin-right:4em;
+  padding:1em;
+  position:absolute;
+  top:6em;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px
+}
+
 
 .nextGameTable{
   width: 500px; 
@@ -101,7 +205,7 @@ table {
 th, td {
     padding: 8px;
     text-align: center;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #8b1243;
 }
 
 
