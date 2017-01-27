@@ -60,11 +60,29 @@ nav > a:hover {
   float:left;
   position:absolute;
   top:6em;
+  width:350px;
+  height: 500px;
+  padding:10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px
+}
+
+.teamWelcome{
+  float:left;
+  position:absolute;
+  top:6em;
   width:1000px;
   height: 500px;
   padding:10px;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 20px
+
+}
+
+.teamWelcome > .titlePage {
+
+  font-size: large;
+  font-weight: bold;
 }
 
 .welcome > .titlePage {
@@ -72,13 +90,18 @@ nav > a:hover {
   font-weight: bold;
 }
 
-.table-right {
+.titlePage{
+
+}
+
+.teamWelcome > .table-right {
   margin-left: 100px;
   position: absolute;
 }
 
-.welcome > .table-left {
+.teamWelcome > .table-left {
   margin-left: 600px;
+  position: absolute;
 }
 
 /* Home */
@@ -87,7 +110,7 @@ nav > a:hover {
   margin-right:4em;
   padding:1em;
   position:absolute;
-  top:7em;
+  top:6em;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 20px
 }
