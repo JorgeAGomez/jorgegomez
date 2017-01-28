@@ -105,10 +105,11 @@ nav > a:hover {
 
 /* Home */
 .content {
+  margin:center;
   margin-left:420px;
   margin-right:4em;
   padding:1em;
-  position:absolute;
+  position:fixed;
   top:6em;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 20px
