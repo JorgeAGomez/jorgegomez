@@ -117,10 +117,10 @@ nav > a:hover {
 
 /* Honours */
 .honoursContent{
-  margin-left:420px;
+  margin-left:450px;
   margin-right:4em;
   padding:1em;
-  position:fixed;
+  position:absolute;
   top:6em;
   height: 520px;
   background-color: rgba(255, 255, 255, 0.8);
@@ -129,18 +129,18 @@ nav > a:hover {
 }
 
 .secondTable{
-  margin-left:420px;
-  margin-right:4em;
+  margin-left:440px;
+  margin-right:3em;
   padding:1em;
-  position:absolute;
+  position:fixed;
   top:15em;
 }
 
 .trophiesImage{
-  margin-left:458px;
+  margin-left:495px;
   margin-right:4em;
   padding:1em;
-  position:absolute;
+  position:fixed;
   top:20em;
   border-radius: 20px
 
