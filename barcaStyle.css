@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  margin: auto;
   background: linear-gradient(#1f3059 0vh, #8b1243 100vh);
 }
 
@@ -58,6 +59,7 @@ nav > a:hover {
 }
 
 .welcome {
+  margin: auto;
   float:left;
   position:absolute;
   top:6em;
@@ -69,8 +71,8 @@ nav > a:hover {
 }
 
 .teamWelcome{
-  float:left;
-  position:absolute;
+  margin: auto;
+  position: relative;
   top:6em;
   width:1000px;
   height: 500px;
@@ -81,7 +83,6 @@ nav > a:hover {
 }
 
 .teamWelcome > .titlePage {
-
   font-size: large;
   font-weight: bold;
 }
@@ -118,11 +119,11 @@ nav > a:hover {
   margin-left:420px;
   margin-right:4em;
   padding:1em;
-  position:absolute;
+  position:fixed;
   top:6em;
   height: 520px;
   background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 20px
+  border-radius: 20px;
 
 }
 
@@ -146,7 +147,7 @@ nav > a:hover {
 
 .dreamTeam{
   float:left;
-  position:absolute;
+  position:fixed;
   top:5em;
   width:1000px;
   height: 500px;
@@ -155,7 +156,7 @@ nav > a:hover {
 
 .sideInfo{
   float:left;
-  position:absolute;
+  position:fixed;
   top:5em;
   width:400px;
   height: 500px;
@@ -167,7 +168,7 @@ nav > a:hover {
 
 .honoursSideInfo{
   float:left;
-  position:absolute;
+  position:fixed;
   top:6em;
   width:350px;
   height: 550px;
@@ -181,7 +182,7 @@ nav > a:hover {
 /* Stadium */
 .stadiumSide{
   float:left;
-  position:absolute;
+  position:fixed;
   top:6em;
   width:400px;
   height: 500px;
@@ -194,7 +195,7 @@ nav > a:hover {
 
 .secondStadiumImage {
   float:left;
-  position:absolute;
+  position:fixed;
   top:24em;
   width:400px;
   height: 500px;
@@ -204,10 +205,11 @@ nav > a:hover {
 }
 
 .stadiumContent{
+  margin: auto;
   margin-left:500px;
   margin-right:4em;
   padding:1em;
-  position:absolute;
+  position:fixed;
   top:6em;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 20px
@@ -221,6 +223,7 @@ nav > a:hover {
 table {
     border-collapse: collapse;
     width: 100%;
+    margin: auto;
 }
 
 th, td {
